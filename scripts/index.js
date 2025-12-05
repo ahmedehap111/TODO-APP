@@ -1,11 +1,18 @@
 import { addTask } from "./addTask.js";
 import { darkModeToggle } from "./darkModeToggle.js";
-import { deleteTask } from "./deleteTask.js";
-import { Elements } from "./Elements.js";
+import {
+  addButton,
+  clearBtn,
+  filterActiveBtn,
+  filterAllBtn,
+  filterBtns,
+  filterCompletedBtn,
+  itemLeft,
+  toggleButton,
+} from "./Elements.js";
 import { fetchData } from "./fetchData.js";
 import { initDataStartUP } from "./initDataStartUP.js";
-import { initTaskListeners } from "./initTaskListeners.js";
-import { renderTasks } from "./reanderTasks.js";
+import { reanderTasks } from "./reanderTasks.js";
 import { saveTODB } from "./saveTODB.js";
 
 toggleButton.addEventListener("click", () => darkModeToggle());
