@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO App</title>
+    <!-- Bootstrap CSS and JS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end Bootstrap CSS and JS -->
+    <script type="module" crossorigin src="/todo-app/assets/index-D2QCFhIx.js"></script>
+    <link rel="stylesheet" crossorigin href="/todo-app/assets/index-C9PkB2u6.css">
+  </head>
+  <body class="s">
+    <section>
+      <img
+        class="img-desktop-light"
+        src="/todo-app/assets/bg-desktop-light-BIdKokTn.jpg"
+        alt="Background Image"
+      />
+    </section>
+
+    <section class="container section">
+      <div class="section-header">
+        <h1 class="section-header__title">T O D O</h1>
+        <img
+          class="section-header__icon"
+          src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='26'%20height='26'%3e%3cpath%20fill='%23FFF'%20fill-rule='evenodd'%20d='M13%200c.81%200%201.603.074%202.373.216C10.593%201.199%207%205.43%207%2010.5%207%2016.299%2011.701%2021%2017.5%2021c2.996%200%205.7-1.255%207.613-3.268C23.22%2022.572%2018.51%2026%2013%2026%205.82%2026%200%2020.18%200%2013S5.82%200%2013%200z'/%3e%3c/svg%3e"
+          alt="Moon Icon"
+        />
+      </div>
+      <div class="section-input">
+        <input
+          class="section-input__text"
+          id="input"
+          type="search"
+          placeholder="Create a new todo..."
+          aria-label="create a new todo..."
+        />
+        <button class="section-input__button">ADD</button>
+      </div>
+
+      <div class="section-output">
+        <div id="output"></div>
+        <div>
+          <ul class="section-output__bottoms">
+            <li class="section-output__bottoms__items"></li>
+            <li class="section-output__bottoms__filter">
+              <span class="section-output__bottoms__filter__all">All</span>
+              <span class="section-output__bottoms__filter__active">Active</span>
+              <span class="section-output__bottoms__filter__completed">Completed</span>
+            </li>
+            <li class="section-output__bottoms__clear">Clear Completed</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="notMessage"></div>
+
+  </body>
+</html>
