@@ -5,8 +5,8 @@ import { saveTODB } from "./saveTODB.js";
 export const darkModeToggle = () => {
   const isDark = document.body.classList.toggle("dark-mode");
   toggleButton.src = isDark
-    ? "../images/icon-sun.svg"
-    : "../images/icon-moon.svg";
+    ? "./images/icon-sun.svg"
+    : "./images/icon-moon.svg";
   imgBG.src = isDark
     ? "./images/bg-desktop-dark.jpg"
     : "./images/bg-desktop-light.jpg";
