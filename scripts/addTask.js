@@ -1,7 +1,7 @@
-import { addButton, inputElement } from "./Elements";
-import { fetchData } from "./fetchData";
-import { reanderTasks } from "./reanderTasks";
-import { saveTODB } from "./saveTODB";
+import { addButton, inputElement } from "./Elements.js";
+import { fetchData } from "./fetchData.js";
+import { reanderTasks } from "./reanderTasks.js";
+import { saveTODB } from "./saveTODB.js";
 
 
 export const addTask = () => {

@@ -1,7 +1,7 @@
-import {  updateItemsLeft } from "./index";
-import { outputElement } from "./Elements";
-import { fetchData } from "./fetchData";
-import { initTaskListeners } from "./initTaskListeners";
+import {  updateItemsLeft } from "./index.js";
+import { outputElement } from "./Elements.js";
+import { fetchData } from "./fetchData.js";
+import { initTaskListeners } from "./initTaskListeners.js";
 
 export const reanderTasks = (tasks = null) => {
   tasks = tasks || fetchData("tasks");

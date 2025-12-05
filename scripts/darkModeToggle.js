@@ -1,5 +1,5 @@
-import { imgBG, toggleButton } from "./Elements";
-import { saveTODB } from "./saveTODB";
+import { imgBG, toggleButton } from "./Elements.js";
+import { saveTODB } from "./saveTODB.js";
 
 
 export const darkModeToggle = () => {

@@ -1,6 +1,6 @@
-import { fetchData } from "./fetchData";
-import { reanderTasks } from "./reanderTasks";
-import { saveTODB } from "./saveTODB";
+import { fetchData } from "./fetchData.js";
+import { reanderTasks } from "./reanderTasks.js";
+import { saveTODB } from "./saveTODB.js";
 
 export const deleteTask = (e, index) => {
   const answer = confirm("Are you sure you want to delete this task?");

@@ -1,4 +1,4 @@
-import { toggleButton } from "./Elements";
+import { toggleButton } from "./Elements.js";
 
 export const initDataStartUP = () => {
   const darkModeFlag = localStorage.getItem("darkModeFlag");

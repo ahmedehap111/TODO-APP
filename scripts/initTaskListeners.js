@@ -1,9 +1,9 @@
-import { updateItemsLeft } from "./index";
-import { deleteTask } from "./deleteTask";
-import { deleteIcons } from "./Elements";
-import { fetchData } from "./fetchData";
-import { reanderTasks } from "./reanderTasks";
-import { saveTODB } from "./saveTODB";
+import { updateItemsLeft } from "./index.js";
+import { deleteTask } from "./deleteTask.js";
+import { deleteIcons } from "./Elements.js";
+import { fetchData } from "./fetchData.js";
+import { reanderTasks } from "./reanderTasks.js";
+import { saveTODB } from "./saveTODB.js";
 
 export const initTaskListeners = () => {
   deleteIcons().forEach((icon) => {

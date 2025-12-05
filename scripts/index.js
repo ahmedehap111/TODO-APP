@@ -1,5 +1,5 @@
-import { addTask } from "./addTask";
-import { darkModeToggle } from "./darkModeToggle";
+import { addTask } from "./addTask.js";
+import { darkModeToggle } from "./darkModeToggle.js";
 import {
   addButton,
   clearBtn,
